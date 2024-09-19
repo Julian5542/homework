@@ -1,9 +1,10 @@
 #title using special characters
+print()
 print("***** *  * *")
 print("  *   *  * *")
 print("  *   *  * *")
-print("* *   **** ****")
-
+print("***   **** ****")
+print()
 #identifying the errors
 interest = 0.05
 balance = 10
@@ -19,7 +20,20 @@ c = a+b
 print(c)
 
 txt = "hi"
-num = "yes"
+num = "there"
 print(txt+num)
+print()
 
 #writing line of code
+greet = ("welcome to a new semester")
+print(greet.capitalize())
+first = ("julian")
+last = (" marin")
+title = ("name:")
+print(title.capitalize()+first.capitalize()+last.capitalize())
+course = ("courses")
+class1 = (" engl101")
+class2 = (" et574")
+class3 = (" et710")
+print(course.capitalize()+class1.upper()+class2.upper()+class3.upper())
+print()
