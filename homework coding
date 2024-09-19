@@ -1,0 +1,25 @@
+#title using special characters
+print("***** *  * *")
+print("  *   *  * *")
+print("  *   *  * *")
+print("* *   **** ****")
+
+#identifying the errors
+interest = 0.05
+balance = 10
+print(interest*balance)
+
+bal = 123
+dep = 100
+print(bal+dep)
+
+a = 2
+b = 3
+c = a+b
+print(c)
+
+txt = "hi"
+num = "yes"
+print(txt+num)
+
+#writing line of code
