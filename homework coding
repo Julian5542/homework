@@ -23,7 +23,6 @@ txt = "hi"
 num = "there"
 print(txt+num)
 print()
-
 #writing line of code
 greet = ("welcome to a new semester")
 print(greet.capitalize())
@@ -37,3 +36,16 @@ class2 = (" et574")
 class3 = (" et710")
 print(course.capitalize()+class1.upper()+class2.upper()+class3.upper())
 print()
+
+#displaying email adress using slicing 
+email = ("mjordan@nba.com")
+print("Email Address: " + email)
+user_name = email[:email.index("@")]
+print("User name: " + user_name)
+company_name = email[email.index("@") + 1:email.index(".")]
+print("Company name: " + company_name.upper())
+print()
+
+#triangle
+print("0123456789")
+print("     *      ")
